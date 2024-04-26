@@ -1,0 +1,64 @@
+body {
+    background-image: url(./assets/illustration.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+.heading {
+    padding: 3px;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+}
+
+.nav2 {
+    min-width: 360px;
+    font-size: large;
+    margin: 40px 50px 40px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+  width: 80%;
+  background-color: #B9A394;
+  margin-left: auto;
+  margin-right: auto;
+  filter: o;
+  padding: 20px;
+  max-width: 700px;
+  /*border-radius: 39px;
+  background: linear-gradient(145deg, #a79385, #c6ae9e);
+  box-shadow:  24px 24px 16px #9f8c7f,
+               -24px -24px 16px #d3baa9;*/
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    justify-content: space-between;
+}
+
+.dessert {
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+}
