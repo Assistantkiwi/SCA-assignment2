@@ -1,28 +1,98 @@
-nav {
-    width: 100%;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 .nav2 {
-    grid-column: 1/-1;
-    text-align: center;
-    margin: 40px 50px 40px 50px;
-    list-style-type: none;
-    padding: 10px;
-    overflow: hidden;
-   /* background-color: #333333;*/
-
+    width: 100%;
+    height: 10vh;
 }
 
-li {
-    float: left;
-    display: inline;
+.nav2 nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    right: 0;
+    left: 0;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
     
 }
 
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 16px;
+.nav2 nav ul{
+    list-style: none;
+}
+
+.nav2 nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav2 nav ul li a{
     text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 17px;
+    transition: 0.1s;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+
+}
+
+ .main .text h1{
+    font-size: 50px;
+    position: relative;
+    left: 20px;
+}
+
+ .main .text h1 span{
+    margin-left: 15px;
+    color: #fac031;
+    line-height: 1px;
+    font-size: 60px;
+}
+
+ .main .main_image img{
+    width: 500px;
+    position: relative;
+    left: 50px;
+    margin: auto;
+}
+
+ p{
+    width: 350px;
+    text-align: justify;
+    position: relative;
+    bottom: 50px;
+    line-height: 22px;
+    padding: 12px 25px;
+}
+
+ .main_btn{
+    background: #fac031;
+    position: relative;
+    left: 123px;
+    bottom: 30px;
+    width: 150px;
+    cursor: pointer;
+    padding: 12px 25px;
+}
+
+ .main_btn a{
+    color: #fff;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.main_btn i{
+    color: #fff;
+    transition: 0.3s;
 }
