@@ -1,5 +1,5 @@
 body {
-    background-image: url(./assets/illustration.jpg);
+    font-family: sans-serif;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,13 +16,33 @@ p {
     text-align: center;
 }
 
+nav {
+    width: 100%;
+}
+
 .nav2 {
-    min-width: 360px;
-    font-size: large;
+    grid-column: 1/-1;
+    text-align: center;
     margin: 40px 50px 40px 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    list-style-type: none;
+    padding: 10px;
+    overflow: hidden;
+   /* background-color: #333333;*/
+
+}
+
+li {
+    float: left;
+    display: inline;
+    
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
 }
 
 .menu {
